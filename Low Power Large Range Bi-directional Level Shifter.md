@@ -151,7 +151,7 @@ The repository presents the design and simulation of Gilbert cell based mixer on
 
 ### Author
 
-Soumitro Vyapari, B.Tech(EE), Indian Institute of Technology Tirupati,  Andhra Pradesh 517506.
+Aruna Kumara Sarma K, M.S(VLSI & Embedded Systems Design), HCL Technologies Bengaluru, K.A.
 
 ### Acknowledgements
 
@@ -159,12 +159,12 @@ Soumitro Vyapari, B.Tech(EE), Indian Institute of Technology Tirupati,  Andhra P
 - Chinmay Panda, IIT Hyderabad
 - [Synopsys Team/Company](synopsys.com/company/contact-synopsys/office-locations/india/about-synopsys-india.html)
 - [IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
-- Active and vibrant hackathon community(https://hackathoniith.in/)
+- [Active and vibrant hackathon community](https://hackathoniith.in/)
 
 ### References
 
 1. Daniel Celino, Yuri Olivato, Talita Granado, J.H. Correia, and Joao Carmo. A rf modulator demodulator for small signal range wireless devices. 07 2016.<br/>
 2. SAZ Murad, RK Pokharel, H Kanaya, and K Yoshida. A 3.0–5.0 ghz high linearity and low power cmos up-conversion mixer for uwb applications. In 2010 IEEE International Conference of Electron Devices and SolidState Circuits (EDSSC), pages 1–4. IEEE, 2010.<br/>
 3. Design of Analog CMOS Integrated Circuits (Behzad Razavi), McGraw-Hill, 2001.
-- [Design & Reuse](https://www.design-reuse.com)
-- [CiteSeerX](https://citeseerx.ist.psu.edu)
+4. [Design & Reuse](https://www.design-reuse.com)
+5. [CiteSeerX](https://citeseerx.ist.psu.edu)
