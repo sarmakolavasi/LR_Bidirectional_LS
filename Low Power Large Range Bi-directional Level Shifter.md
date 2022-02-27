@@ -28,16 +28,16 @@ The proposed "Low-power architecture for a Bi-derectional level shifter" design 
 <img src="https://user-images.githubusercontent.com/100507370/155894698-4e5a2d8e-1e2c-4e5d-a2f6-96a631cddc69.png">
 </p>
 <p align="center">
-Fig 1. Mixer schematic
+Fig 1. Transistor level schematic of proposed bi-directional level shifter.
 </p>
 
-Fig 1. shows the mixer schematic, consisting of a folded Gilbert cell. Here the local oscillator's (LO) differential input is fed to M1-M2 and M3-M4 pairs which act as transconductance amplifiers. The output current of both amplifiers is summed with opposite polarity and passed through load resistors R_L to produce the differential output voltage. The transconductance of both amplifiers can be varied by varying the currents I_1 and I_2. This is achieved with current mirror formed using FET’s M7-M9 and M8-M10 controlled using the differential pair (M5-M6). The Radio Frequency (RF) signal is applied to this differential pair M5-M6, hence modulating the gain for the LO signal. The use of current mirror results in larger output voltage swing and ease of biasing.
+Fig 1. shows the Transistor level bi-directional level shifter schematic, 
 
-### Device Characterization
+### Technological Study Of Models
 
-Before the design of any circuit, a thorough understanding of the characteristics of used device is required. This becomes even more crucial for MOS devices of lower technology nodes which deviate a lot from the ideal MOS characteristics due to short channel effects.
+Before the design of any circuit, a thorough understanding of the characteristics of used devices is required. This becomes even more crucial for MOS devices of lower technology nodes which deviate a lot from the ideal MOS characteristics due to second order effects.
 
-The device characterization of NMOS and PMOS was performed using standard circuits for device characterization. The mosfets were taken from 28nm PDK library with width to length ratio of 0.3um/0.03um. The drain to source voltages and gate to source voltages were sweeped to produce the below plots.
+The device models characterization of NMOS and PMOS was performed using standard circuits as part of model study. The mosfets were taken from SAED_32_28 PDK library with width to length ratio of 0.3um/0.03um. The drain to source voltages and gate to source voltages were sweeped to produce the below plots.
 
 <br/>
 <p align="center">
@@ -69,16 +69,16 @@ Fig 4. I_D vs V_SG for PMOS device
 
 Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of V_SG. The PMOS device has lower current than NMOS for similar voltage levels.
 
-### Circuit Design
+### Design Implementation
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155755254-912c3921-fa5f-4111-bebc-9109666a7832.png">
+<img src="https://user-images.githubusercontent.com/100507370/155895536-d4966685-7eb3-4291-9211-ec547f3fe16c.png">
 </p>
 <p align="center">
-Fig 5. Mixer schematic
+Fig 5. Low Power Large Range Bi-directional Level Shifter
 </p>
 
-Fig 5. presents the mixer schematic. The schematic has been modified to include PMOS devices as active current loads followed with cascode transistors. This results in larger voltage gain while consuming lesser head room compared to resistors. This modification requires proper biasing which in this case has been provided using a PMOS followed with a resistor network. This configuration can be easily replaced with a low voltage cascode current mirror if better matching is required in presence of threshold voltage variations. Although square law cannot be used to determine the quiescent currents, width scaling to generate scaled currents still holds especially when fingers are used. Hence a reference current source (I) is used and mirrored in the RF branch, while the active PMOS loads are designed to mirror I/2 each. 
+Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic. The schematic has been modified to include PMOS devices as active current loads followed with cascode transistors. This results in larger voltage gain while consuming lesser head room compared to resistors. This modification requires proper biasing which in this case has been provided using a PMOS followed with a resistor network. This configuration can be easily replaced with a low voltage cascode current mirror if better matching is required in presence of threshold voltage variations. Although square law cannot be used to determine the quiescent currents, width scaling to generate scaled currents still holds especially when fingers are used. Hence a reference current source (I) is used and mirrored in the RF branch, while the active PMOS loads are designed to mirror I/2 each. 
 
 ### Simulation Results
 
