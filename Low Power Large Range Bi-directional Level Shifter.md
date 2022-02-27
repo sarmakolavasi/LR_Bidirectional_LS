@@ -5,9 +5,9 @@
 ##### Company : HCL Technologies, Bengaluru. K.A
 ##### Event : IITH/SNPS/VSD analog hackathon
 
-## Design Proposal & Implementation Of A Low Power Large Range Bi-directional Level Shifter
+## Design Implementation & Simulation Of A Low Power Large Range Bi-directional Level Shifter
 
-## Table of Contents
+### Table of Contents
 
 - [Introduction](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#introduction)
 - [Device Characterization](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#device-characterization)
@@ -19,7 +19,7 @@
 - [Acknowledgements](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#acknowledgements)
 - [References](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#references)
 
-## Introduction
+### Introduction
 
 Mixers find wide use in communication applications especially in up and down converter analog font ends. New applications such as Radio Frequency Integrated Circuits (RFIC) require low-power, low-cost single chip designs. This repository presents the design and simulation of Gilbert cell based mixer on CMOS 28nm technology. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) software and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment. 
 
@@ -32,7 +32,7 @@ Fig 1. Mixer schematic
 
 Fig 1. shows the mixer schematic, consisting of a folded Gilbert cell. Here the local oscillator's (LO) differential input is fed to M1-M2 and M3-M4 pairs which act as transconductance amplifiers. The output current of both amplifiers is summed with opposite polarity and passed through load resistors R_L to produce the differential output voltage. The transconductance of both amplifiers can be varied by varying the currents I_1 and I_2. This is achieved with current mirror formed using FET’s M7-M9 and M8-M10 controlled using the differential pair (M5-M6). The Radio Frequency (RF) signal is applied to this differential pair M5-M6, hence modulating the gain for the LO signal. The use of current mirror results in larger output voltage swing and ease of biasing.
 
-## Device Characterization
+### Device Characterization
 
 Before the design of any circuit, a thorough understanding of the characteristics of used device is required. This becomes even more crucial for MOS devices of lower technology nodes which deviate a lot from the ideal MOS characteristics due to short channel effects.
 
@@ -68,7 +68,7 @@ Fig 4. I_D vs V_SG for PMOS device
 
 Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of V_SG. The PMOS device has lower current than NMOS for similar voltage levels.
 
-## Circuit Design
+### Circuit Design
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155755254-912c3921-fa5f-4111-bebc-9109666a7832.png">
@@ -79,7 +79,7 @@ Fig 5. Mixer schematic
 
 Fig 5. presents the mixer schematic. The schematic has been modified to include PMOS devices as active current loads followed with cascode transistors. This results in larger voltage gain while consuming lesser head room compared to resistors. This modification requires proper biasing which in this case has been provided using a PMOS followed with a resistor network. This configuration can be easily replaced with a low voltage cascode current mirror if better matching is required in presence of threshold voltage variations. Although square law cannot be used to determine the quiescent currents, width scaling to generate scaled currents still holds especially when fingers are used. Hence a reference current source (I) is used and mirrored in the RF branch, while the active PMOS loads are designed to mirror I/2 each. 
 
-## Simulation Results
+### Simulation Results
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
@@ -133,7 +133,7 @@ Fig 10. DC transfer curves of the mixer
 
 Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixer lacks linearity especially for higher voltage levels of RF signal, this is evident from the unevenly spaced transfer curves which bunch up for higher RF voltage.
 
-## Performance Comparison
+### Performance Comparison
 
 |               |      [1]      |      [2]      |   This work   |
 |     :---:     |     :---:     |     :---:     |     :---:     |
@@ -146,15 +146,15 @@ Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixe
 
 The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
 
-## Conclusion
+### Conclusion
 
 The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes 0.54mW of power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
 
-## Author
+### Author
 
 Soumitro Vyapari, B.Tech(EE), Indian Institute of Technology Tirupati,  Andhra Pradesh 517506.
 
-## Acknowledgements
+### Acknowledgements
 
 - [Kunal Ghosh, Co-founder, VSD Corp. Pvt Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0xcWjpLDThSEo6S9UPO9Tw%3D%3D)
 - Chinmay Panda, IIT Hyderabad
@@ -162,7 +162,7 @@ Soumitro Vyapari, B.Tech(EE), Indian Institute of Technology Tirupati,  Andhra P
 - [IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
 - Active and vibrant hackathon community
 
-## References
+### References
 
 1. Daniel Celino, Yuri Olivato, Talita Granado, J.H. Correia, and Joao Carmo. A rf modulator demodulator for small signal range wireless devices. 07 2016.<br/>
 2. SAZ Murad, RK Pokharel, H Kanaya, and K Yoshida. A 3.0–5.0 ghz high linearity and low power cmos up-conversion mixer for uwb applications. In 2010 IEEE International Conference of Electron Devices and SolidState Circuits (EDSSC), pages 1–4. IEEE, 2010.<br/>
