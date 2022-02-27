@@ -1,5 +1,5 @@
 # Low Power Large Range Bi-directional Level Shifter
-##### Design_Name : Bidirectional_LRLS
+##### Design_Name : Low_Power_Bi-directional_LRLS
 ##### Technology_Node : CMOS_28nm
 ##### Author : K Aruna Kumara Sarma
 ##### Company : HCL Technologies, Bengaluru. K.A
@@ -10,8 +10,9 @@
 ### Table of Contents
 
 - [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#introduction)
-- [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#circuit-design)
-- [Simulation Results](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#simulation-results)
+- [Technological Study Of Models](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Technological-Study-Of-Models)
+- [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Circuit-Design-Implementation)
+- [Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Simulation-Waveform)
 - [Performance Comparison](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#performance-comparison)
 - [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
 - [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
@@ -69,7 +70,7 @@ Fig 4. I_D vs V_SG for PMOS device.
 
 Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of V_SG. The PMOS device has lower current than NMOS for similar voltage levels.
 
-### Design Implementation
+### Circuit Design Implementation
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100507370/155895536-d4966685-7eb3-4291-9211-ec547f3fe16c.png">
