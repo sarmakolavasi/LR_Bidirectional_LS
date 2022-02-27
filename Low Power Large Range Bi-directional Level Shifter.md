@@ -5,7 +5,7 @@
 ##### Company : HCL Technologies, Bengaluru. K.A
 ##### Event : IITH/SNPS/VSD analog hackathon
 
-## Design and Simulation of a Low Power Large Range Bi-directional Level Shifter
+## Design Proposal & Implementation Of A Low Power Large Range Bi-directional Level Shifter
 
 ## Table of Contents
 
