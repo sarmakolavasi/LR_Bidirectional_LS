@@ -11,13 +11,13 @@
 
 - [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#introduction)
 - [Device Characterization](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#device-characterization)
-- [Circuit Design](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#circuit-design)
-- [Simulation Results](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#simulation-results)
-- [Performance Comparison](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#performance-comparison)
-- [Conclusion](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#conclusion)
-- [Author](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#author) 
-- [Acknowledgements](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#acknowledgements)
-- [References](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#references)
+- [Circuit Design](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#circuit-design)
+- [Simulation Results](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#simulation-results)
+- [Performance Comparison](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#performance-comparison)
+- [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
+- [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
+- [Acknowledgements](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#acknowledgements)
+- [References](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#references)
 
 ### Introduction
 
