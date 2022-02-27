@@ -9,8 +9,8 @@
 
 ### Table of Contents
 
-- [Introduction](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#introduction)
-- [Device Characterization](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#device-characterization)
+- [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS.git#introduction)
+- [Device Characterization](https://github.com/sarmakolavasi/LR_Bidirectional_LS.git#device-characterization)
 - [Circuit Design](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#circuit-design)
 - [Simulation Results](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#simulation-results)
 - [Performance Comparison](https://github.com/SoumitroV/Design-and-Simulation-of-a-Gilbert-Cell-based-Mixer-on-CMOS-28nm-Technology/edit/main/README.md#performance-comparison)
