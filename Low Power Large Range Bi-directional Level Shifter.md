@@ -80,16 +80,16 @@ Fig 5. Low Power Large Range Bi-directional Level Shifter
 
 Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
 
-##### Operation: 1  IN to OUT, VDDL to VDDH (EN = 0).
+#### Operation: 1  IN to OUT, VDDL to VDDH (EN = 0).
 - The port IN is associated with voltage level VDDL while port OUT is with VDDH.
-- During to low to high operation the EN signal is to be set as low.
+- During to VDDL to VDDH operation the EN signal is to be set as low (EN = 0).
 - The INB is generated from the port IN and is connected to M12, M13 and M17.
 - For M12 and M13 the supply is connected to voltage level VDDL via M9, thus driving gate of M16 with logic level of VDDL.
 - The supply for the cross coupled level shifter also connected to high voltage level VDDH via M10.
 - If IN = 0 then, M16 is turned on and a logic low corresponding to VDDH is driven by M16 to the port OUT.
 - If IN = 1 then, M17 is turned on and a logic high corresponding to VDDH is driven M14 to the port OUT
 
-### Simulation Results
+#### Simulation Waveform :
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
@@ -99,6 +99,17 @@ Fig 6. Mixer simulation input and output waveforms
 </p>
 
 The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
+
+#### Operation: 2  IN to OUT, VDDH to VDDL (EN = 1).
+- The port IN is associated with voltage level VDDH while port OUT is with VDDL.
+- During to VDDH to VDDL operation the EN signal is to be set as high (EN = 1).
+- The INB is generated from the port IN and is connected to M12, M13 and M17.
+- For M12 and M13 the supply is connected to voltage level VDDH via M8, thus driving gate of M16 with logic level of VDDH.
+- The supply for the cross coupled level shifter also connected to low voltage level VDDL via M11.
+- If IN = 0 then, M16 is turned on and a logic low corresponding to VDDL is driven by M16 to the port OUT.
+- If IN = 1 then, M17 is turned on and a logic high corresponding to VDDL is driven M14 to the port OUT
+
+#### Simulation Waveform :
 
 <br/>
 <p align="center">
@@ -110,40 +121,7 @@ Fig 7. DFT of output waveform
 
 Fig 7. shows the output signal's DFT normalized wrt to peak frequency component. As can be observed, the spectrum peaks around f = 400MHz and f = 500MHz confirming the multiplying property. Intrestingly figure also shows presence of a 50MHz component as some of the RF signal gets leaked to the output.
 
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155829965-e9b49c90-fa84-4958-9092-fc9c61f89e83.png">
-</p>
-<p align="center">
-Fig 8. Testbench used to determine -3dB point
-</p>
-
-Fig 8. shows the testbench setup used to determine -3dB point for the mixer. A "vsource" element is used to provide the RF and LO signal of amplitude 100mV. AC analysis was performed by using the default frequency as sweep variable and the magnitude of output differential signal was set as output. Note that the output signals are terminated with two NMOS source follower circuits to simulate the effect of connecting the mixer to further stages in an IC. 
-
-
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155829961-13622c5c-7f77-4aa9-aea0-61ac9921b12e.png">
-</p>
-<p align="center">
-Fig 9. Magnitude plot of output signal
-</p>
-
-Fig 9. shows that the -3dB point for the mixer is achieved at a frequency of 7.14GHz. Hence the mixer can be easily used for ISM band between 902MHz and 928MHz as well.
-
-<br/>
-
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155830279-15d2d7ff-7a21-42c6-bea2-0e55e32a6a5f.png">
-</p>
-<p align="center">
-Fig 10. DC transfer curves of the mixer
-</p>
-
-Finally, Fig 10. presents the DC transfer curves of the designed mixer. The mixer lacks linearity especially for higher voltage levels of RF signal, this is evident from the unevenly spaced transfer curves which bunch up for higher RF voltage.
-
-### Performance Comparison
+### Results And Performance Comparison
 
 |               |      [1]      |      [2]      |   This work   |
 |     :---:     |     :---:     |     :---:     |     :---:     |
