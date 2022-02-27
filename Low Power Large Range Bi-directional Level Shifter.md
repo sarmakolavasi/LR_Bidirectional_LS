@@ -9,15 +9,15 @@
 
 ### Table of Contents
 
-- [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Introduction)
-- [Technological Study Of Models](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Technological-Study-Of-Models)
-- [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Circuit-Design-Implementation)
-- [Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Simulation-Waveform)
-- [Performance Comparison](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#performance-comparison)
-- [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
-- [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
-- [Acknowledgements](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#acknowledgements)
-- [References](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/d610bf273a01bdccf197bf6bf835d474fdecd745/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#references)
+- [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Introduction)
+- [Technological Study Of Models](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Technological-Study-Of-Models)
+- [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Circuit-Design-Implementation)
+- [Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Simulation-Waveform)
+- [Performance Comparison](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#performance-comparison)
+- [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
+- [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
+- [Acknowledgements](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#acknowledgements)
+- [References](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#references)
 
 ### Introduction
 
