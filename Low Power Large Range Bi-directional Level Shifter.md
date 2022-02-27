@@ -111,7 +111,6 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 
 #### Simulation Waveform :
 
-<br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155828222-2450f627-bf53-462a-b0da-fac1b0b3abcc.png">
 </p>
