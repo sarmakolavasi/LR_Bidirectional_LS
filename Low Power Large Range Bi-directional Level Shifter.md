@@ -31,7 +31,7 @@ The proposed "Low-power architecture for a Bi-derectional level shifter" design 
 Fig 1. Transistor level schematic of proposed bi-directional level shifter.
 </p>
 
-Fig 1. shows the Transistor level bi-directional level shifter schematic, 
+Fig 1. shows the Transistor level bi-directional level shifter schematic, This proposed circuit will resolve the observed huge short circuit or direct path current exists from VDDH to VSS which occurs in many of the back to back connected bi-directional level shifters.
 
 ### Technological Study Of Models
 
@@ -44,27 +44,27 @@ The device models characterization of NMOS and PMOS was performed using standard
 <img src="https://user-images.githubusercontent.com/41693726/155748353-a8f99600-4016-4db4-a576-994fc59fc3b5.png">
 </p>
 <p align="center">
-Fig 2. I_D vs V_DS for NMOS device
+Fig 2. I_D vs V_DS for NMOS device.
 </p>
 
-Fig 2. presents the drain current (I_D) of NMOS device as a function of drain to source voltage (V_DS) for some fixed value of gate to source voltage (V_GS). As can be observed the device in saturation region has a high slope indicating a strong dependence on V_DS. This presents a challenge to the circuit designer as the MOS no longer remains an ideal transconductance device!
+Fig 2. presents the drain current (I_D) of NMOS device as a function of drain to source voltage (V_DS) for some fixed value of gate to source voltage (V_GS). As can be observed the device in saturation region has a high slope indicating a strong dependence on V_DS. This presents a challenge to the circuit designer as the MOS no longer remains an ideal transconductance device.
 
 <br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155748383-1163c4ea-103f-49d2-a4af-e50f61ac9591.png">
 </p>
 <p align="center">
-Fig 3. I_D vs V_GS for NMOS device
+Fig 3. I_D vs V_GS for NMOS device.
 </p>
 
-Fig 3. presents I_D of NMOS device as a function of V_GS for some fixed value of V_DS. As can be observed the device is no longer follows the square law but has a linear rise even in saturation region due to velocity saturation effects!
+Fig 3. presents I_D of NMOS device as a function of V_GS for some fixed value of V_DS. As can be observed the device is no longer follows the square law but has a linear rise even in saturation region due to velocity saturation effects.
 
 <br/>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155748683-c204c584-82d0-460f-80d6-8104c5c9ba94.png">
 </p>
 <p align="center">
-Fig 4. I_D vs V_SG for PMOS device
+Fig 4. I_D vs V_SG for PMOS device.
 </p>
 
 Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of V_SG. The PMOS device has lower current than NMOS for similar voltage levels.
@@ -78,7 +78,16 @@ Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of
 Fig 5. Low Power Large Range Bi-directional Level Shifter
 </p>
 
-Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic. The schematic has been modified to include PMOS devices as active current loads followed with cascode transistors. This results in larger voltage gain while consuming lesser head room compared to resistors. This modification requires proper biasing which in this case has been provided using a PMOS followed with a resistor network. This configuration can be easily replaced with a low voltage cascode current mirror if better matching is required in presence of threshold voltage variations. Although square law cannot be used to determine the quiescent currents, width scaling to generate scaled currents still holds especially when fingers are used. Hence a reference current source (I) is used and mirrored in the RF branch, while the active PMOS loads are designed to mirror I/2 each. 
+Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
+
+##### Operation: 1  IN to OUT, VDDL to VDDH (EN = 0).
+- The port IN is associated with voltage level VDDL while port OUT is with VDDH.
+- During to low to high operation the EN signal is to be set as low.
+- The INB is generated from the port IN and is connected to M12, M13 and M17.
+- For M12 and M13 the supply is connected to voltage level VDDL via M9, thus driving gate of M16 with logic level of VDDL.
+- The supply for the cross coupled level shifter also connected to high voltage level VDDH via M10.
+- If IN = 0 then, M16 is turned on and a logic low corresponding to VDDH is driven by M16 to the port OUT.
+- If IN = 1 then, M17 is turned on and a logic high corresponding to VDDH is driven M14 to the port OUT
 
 ### Simulation Results
 
