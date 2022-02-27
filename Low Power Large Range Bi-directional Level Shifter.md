@@ -151,7 +151,7 @@ The repository presents the design and simulation of Gilbert cell based mixer on
 
 ### Author
 
-Aruna Kumara Sarma K, M.S(VLSI & Embedded Systems Design), HCL Technologies Bengaluru, K.A.
+Aruna Kumara Sarma K, Masters in (VLSI & Embedded Systems Design), HCL Technologies Bengaluru, K.A.
 
 ### Acknowledgements
 
