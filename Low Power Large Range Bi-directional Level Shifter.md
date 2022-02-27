@@ -25,7 +25,7 @@ The sudden increase in demand for IOT & AI applications built up a craze for Low
 The proposed "Low-power architecture for a Bi-derectional level shifter" design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) software and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155741693-ada2c3e9-4e41-4473-857c-a0bd099c9e77.png">
+<img src="https://user-images.githubusercontent.com/100507370/155894698-4e5a2d8e-1e2c-4e5d-a2f6-96a631cddc69.png">
 </p>
 <p align="center">
 Fig 1. Mixer schematic
