@@ -20,7 +20,9 @@
 
 ### Introduction
 
-Mixers find wide use in communication applications especially in up and down converter analog font ends. New applications such as Radio Frequency Integrated Circuits (RFIC) require low-power, low-cost single chip designs. This repository presents the design and simulation of Gilbert cell based mixer on CMOS 28nm technology. The design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) software and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment. 
+The sudden increase in demand for IOT & AI applications built up a craze for Low power & High performance modern designs in the SoC design community. Though level shifters were being used in order to cater the controductory requirements but the techniques were ineffectual, as a part of the power saved by multi level voltage islands is lost due to inherent power consumption characteristic attributes of inefficient level shifter cells leads to energy consumption by itself.
+
+The proposed "Low-power architecture for a Bi-derectional level shifter" design has been created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) software and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/41693726/155741693-ada2c3e9-4e41-4473-857c-a0bd099c9e77.png">
