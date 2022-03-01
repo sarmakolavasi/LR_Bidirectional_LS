@@ -138,10 +138,10 @@ The bi-directional level shifter circuit simulation performed and the fig 7. sho
 <img src="https://user-images.githubusercontent.com/100507370/156139784-63374734-cbe4-4631-9c9f-82eee7f1de86.PNG">
 </p>
 <p align="center">
-Fig 8. Bi-directional Level Shifter "VDDH2VDDL" Simulation Results
+Fig 8. Bi-directional Level Shifter Simulation Results
 </p>
 
-The table presents results and performance of the circuit that previously done work in the literature. Still a clear trade off can be acheived with further re-search and development with advanced technology nodes.
+The table presents results and performance of the circuit that previously done in the literature. Still a clear trade off can be acheived with further re-search and development with advanced technology nodes.
 
 ### Conclusion
 
