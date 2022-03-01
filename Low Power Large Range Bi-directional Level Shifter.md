@@ -12,7 +12,8 @@
 - [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Introduction)
 - [Technological Study Of Models](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Technological-Study-Of-Models)
 - [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Circuit-Design-Implementation)
-- [Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Simulation-Waveform)
+- [VDDL2VDDH Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDL2VDDH-Simulation-Waveform)
+- [VDDH2VDDL Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDH2VDDL-Simulation-Waveform)
 - [Performance Comparison](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#performance-comparison)
 - [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
 - [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
@@ -79,7 +80,7 @@ Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of
 Fig 5a. Low Power Large Range Bi-directional Level Shifter
 </p>
 
-### Design Netlist
+#### Design Netlist
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/100507370/156118123-337a177a-f942-46f1-ac9b-f06884c2947e.PNG">
@@ -146,7 +147,9 @@ The table presents performance comparison with previously done work in literatur
 
 ### Conclusion
 
-The repository presents the design and simulation of Gilbert cell based mixer on 28nm technology node. The design consumes 0.54mW of power at 1.8V and provides nearly unity gain. Future works can include improvement of conversion gain and increase in linearity by using better designs and biasing techniques. 
+The repository presents the design and simulation of the proposed "Low-power Large Range Bi-directional Level Shifter", the design architecture has been imple  mented using CMOS 28nm PDK, created on Synopsis [Custom Compiler](https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html) software and simulated using [PrimeWave](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html) environment.
+
+The design supports full rail large range level shift of 600mv on CMOS 28nm technology node. The design supports lower leakage at 1.8V headers and provides proper level shift in both directions. Future works can include improvement of design using better design schemes and biasing techniques to make lower area efficiant and to meet PPA requirements. 
 
 ### Author
 
