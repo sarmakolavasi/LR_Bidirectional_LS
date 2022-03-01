@@ -110,7 +110,7 @@ The Fig 5a, Shows Low Power Large Range Bi-directional Level Shifter Schematic c
 Fig 6. Bi-directional Level Shifter "VDDL2VDDH" Simulation Input And Output Waveforms
 </p>
 
-The bi-directional level shifter circuit simulation performed and the fig 6. shows the input & output of "VDDL2VDDH" waveform obtained after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
+The bi-directional level shifter circuit simulation performed and the fig 6. shows the input & output of "VDDL2VDDH" waveform obtained 600mv level up shift after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
 
 #### Operation: 2  IN to OUT, VDDH to VDDL (EN = 1).
 - The port IN is associated with voltage level VDDH while port OUT is with VDDL.
@@ -130,7 +130,7 @@ The bi-directional level shifter circuit simulation performed and the fig 6. sho
 Fig 7. Bi-directional Level Shifter "VDDH2VDDL" Simulation Input And Output Waveforms
 </p>
 
-The bi-directional level shifter circuit simulation performed and the fig 7. shows the input & output of "VDDH2VDDL" waveform obtained after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
+The bi-directional level shifter circuit simulation performed and the fig 7. shows the input & output of "VDDH2VDDL" waveform obtained 600mv level down shift after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
 
 ### Results And Performance Comparison
 
