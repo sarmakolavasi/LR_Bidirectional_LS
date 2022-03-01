@@ -84,7 +84,7 @@ Fig 5a. Shows Low Power Large Range Bi-directional Level Shifter Schematic can p
 ### Design Netlist
 
 <p align="center">
-<img src="(https://user-images.githubusercontent.com/100507370/156117892-7714ee80-7c52-4493-9659-fb7d0ece786e.PNG">
+<img src="https://user-images.githubusercontent.com/100507370/156118123-337a177a-f942-46f1-ac9b-f06884c2947e.PNG">
 </p>
 <p align="center">
 Fig 5b. Low Power Large Range Bi-directional Level Shifter
