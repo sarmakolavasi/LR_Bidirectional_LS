@@ -12,8 +12,8 @@
 - [Introduction](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Introduction)
 - [Technological Study Of Models](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Technological-Study-Of-Models)
 - [Circuit Design Implementation](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Circuit-Design-Implementation)
-- [VDDL2VDDH Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDL2VDDH-Simulation-Waveform-:)
-- [VDDH2VDDL Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDH2VDDL-Simulation-Waveform-:)
+- [VDDL2VDDH Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDL2VDDH-Simulation-Waveform)
+- [VDDH2VDDL Simulation Waveform](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#VDDH2VDDL-Simulation-Waveform)
 - [Results And Performance](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#Results-And-Performance)
 - [Conclusion](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#conclusion)
 - [Author](https://github.com/sarmakolavasi/LR_Bidirectional_LS/blob/main/Low%20Power%20Large%20Range%20Bi-directional%20Level%20Shifter.md#author) 
@@ -101,7 +101,7 @@ The Fig 5a, Shows Low Power Large Range Bi-directional Level Shifter Schematic c
 - If IN = 0 then, M16 is turned on and a logic low corresponding to VDDH is driven by M16 to the port OUT.
 - If IN = 1 then, M17 is turned on and a logic high corresponding to VDDH is driven M14 to the port OUT
 
-#### VDDL2VDDH Simulation Waveform :
+##### VDDL2VDDH Simulation Waveform
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100507370/156117513-97ba9863-22f1-4977-8cc1-5de2e39445f2.PNG">
@@ -121,7 +121,7 @@ The bi-directional level shifter circuit simulation performed and the fig 6. sho
 - If IN = 0 then, M16 is turned on and a logic low corresponding to VDDL is driven by M16 to the port OUT.
 - If IN = 1 then, M17 is turned on and a logic high corresponding to VDDL is driven M14 to the port OUT
 
-#### VDDH2VDDL Simulation Waveform :
+##### VDDH2VDDL Simulation Waveform
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/100507370/156117629-f3f76e59-54c4-477d-9d3b-183449096d4d.PNG">
