@@ -76,10 +76,22 @@ Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of
 <img src="https://user-images.githubusercontent.com/100507370/155895536-d4966685-7eb3-4291-9211-ec547f3fe16c.png">
 </p>
 <p align="center">
-Fig 5. Low Power Large Range Bi-directional Level Shifter
+Fig 5a. Low Power Large Range Bi-directional Level Shifter
 </p>
 
-Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
+Fig 5a. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
+
+### Design Netlist
+
+<p align="center">
+<img src="(https://user-images.githubusercontent.com/100507370/156117892-7714ee80-7c52-4493-9659-fb7d0ece786e.PNG">
+</p>
+<p align="center">
+Fig 5b. Low Power Large Range Bi-directional Level Shifter
+</p>
+
+Fig 5b. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
+
 
 #### Operation: 1  IN to OUT, VDDL to VDDH (EN = 0).
 - The port IN is associated with voltage level VDDL while port OUT is with VDDH.
@@ -90,10 +102,10 @@ Fig 5. Shows Low Power Large Range Bi-directional Level Shifter Schematic can pe
 - If IN = 0 then, M16 is turned on and a logic low corresponding to VDDH is driven by M16 to the port OUT.
 - If IN = 1 then, M17 is turned on and a logic high corresponding to VDDH is driven M14 to the port OUT
 
-#### Simulation Waveform :
+#### VDDL2VDDH Simulation Waveform :
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155828213-806a2334-16f8-49d9-be31-1632b2d17759.png">
+<img src="https://user-images.githubusercontent.com/100507370/156117513-97ba9863-22f1-4977-8cc1-5de2e39445f2.PNG">
 </p>
 <p align="center">
 Fig 6. Mixer simulation input and output waveforms
@@ -110,10 +122,10 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 - If IN = 0 then, M16 is turned on and a logic low corresponding to VDDL is driven by M16 to the port OUT.
 - If IN = 1 then, M17 is turned on and a logic high corresponding to VDDL is driven M14 to the port OUT
 
-#### Simulation Waveform :
+#### VDDH2VDDL Simulation Waveform :
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41693726/155828222-2450f627-bf53-462a-b0da-fac1b0b3abcc.png">
+<img src="https://user-images.githubusercontent.com/100507370/156117629-f3f76e59-54c4-477d-9d3b-183449096d4d.PNG">
 </p>
 <p align="center">
 Fig 7. DFT of output waveform
