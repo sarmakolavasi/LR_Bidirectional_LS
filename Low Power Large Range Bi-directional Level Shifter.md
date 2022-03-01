@@ -132,18 +132,16 @@ Fig 7. Bi-directional Level Shifter "VDDH2VDDL" Simulation Input And Output Wave
 
 The bi-directional level shifter circuit simulation performed and the fig 7. shows the input & output of "VDDH2VDDL" waveform obtained 600mv level down shift after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
 
-### Results And Performance Comparison
+### Results And Performance
 
-|               |      [1]      |      [2]      |   This work   |
-|     :---:     |     :---:     |     :---:     |     :---:     |
-|     Vdd (V)   |      5.0      |      1.2      |      1.8      |
-|Frequency (GHz)|     0.433     |      4.0      |     0.45      |
-|Technology (nm)|      700      |      180      |      28       |
-|     Gain      |      3.35     |      1.3      |     1.015     |
-|  Power (mW)   |       3       |      7.1      |      0.54     |
-|Chip Size (mm sq)|       -       |      0.82      |      -     |
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100507370/156139784-63374734-cbe4-4631-9c9f-82eee7f1de86.PNG">
+</p>
+<p align="center">
+Fig 8. Bi-directional Level Shifter "VDDH2VDDL" Simulation Results
+</p>
 
-The table presents performance comparison with previously done work in literature. A clear trade off between gain and power can be observed here. The chip area can be determined with post layout measurements and is expected to be smaller than higher technology nodes.
+The table presents results and performance of the circuit that previously done work in the literature. Still a clear trade off can be acheived with further re-search and development with advanced technology nodes.
 
 ### Conclusion
 
