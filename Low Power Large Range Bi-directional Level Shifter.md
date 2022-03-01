@@ -79,20 +79,18 @@ Fig 4. presents I_D of PMOS device as a function of V_SG for some fixed value of
 Fig 5a. Low Power Large Range Bi-directional Level Shifter
 </p>
 
-Fig 5a. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
-
 ### Design Netlist
 
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/100507370/156118123-337a177a-f942-46f1-ac9b-f06884c2947e.PNG">
 </p>
 <p align="center">
-Fig 5b. Low Power Large Range Bi-directional Level Shifter
+Fig 5b. Circuit Netlist Of Low Power Large Range Bi-directional Level Shifter
 </p>
 
 Fig 5b. Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
 
-
+The Fig 5a, Shows Low Power Large Range Bi-directional Level Shifter Schematic can perform below operations
 #### Operation: 1  IN to OUT, VDDL to VDDH (EN = 0).
 - The port IN is associated with voltage level VDDL while port OUT is with VDDH.
 - During to VDDL to VDDH operation the EN signal is to be set as low (EN = 0).
@@ -108,10 +106,10 @@ Fig 5b. Shows Low Power Large Range Bi-directional Level Shifter Schematic can p
 <img src="https://user-images.githubusercontent.com/100507370/156117513-97ba9863-22f1-4977-8cc1-5de2e39445f2.PNG">
 </p>
 <p align="center">
-Fig 6. Mixer simulation input and output waveforms
+Fig 6. Bi-directional Level Shifter "VDDL2VDDH" Simulation Input And Output Waveforms
 </p>
 
-The simulation of mixer was performed using specifications as presented in [1]. Fig 6. shows the mixer output waveform obtained by applying f_RF = 50MHz and f_LO = 450MHz. The resulting output signal has a frequency IF_1 = 400MHz and IF_2  = 500MHz. Note that the mixer provides almost unity gain or a conversion gain of 0.131dB precisely.
+The bi-directional level shifter circuit simulation performed and the fig 6. shows the input & output of "VDDL2VDDH" waveform obtained after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
 
 #### Operation: 2  IN to OUT, VDDH to VDDL (EN = 1).
 - The port IN is associated with voltage level VDDH while port OUT is with VDDL.
@@ -128,10 +126,10 @@ The simulation of mixer was performed using specifications as presented in [1]. 
 <img src="https://user-images.githubusercontent.com/100507370/156117629-f3f76e59-54c4-477d-9d3b-183449096d4d.PNG">
 </p>
 <p align="center">
-Fig 7. DFT of output waveform
+Fig 7. Bi-directional Level Shifter "VDDH2VDDL" Simulation Input And Output Waveforms
 </p>
 
-Fig 7. shows the output signal's DFT normalized wrt to peak frequency component. As can be observed, the spectrum peaks around f = 400MHz and f = 500MHz confirming the multiplying property. Intrestingly figure also shows presence of a 50MHz component as some of the RF signal gets leaked to the output.
+The bi-directional level shifter circuit simulation performed and the fig 7. shows the input & output of "VDDH2VDDL" waveform obtained after proper sizing of the devices accoding to the available models in CMOS 28nm PDK.
 
 ### Results And Performance Comparison
 
